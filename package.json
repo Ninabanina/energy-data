@@ -1,0 +1,25 @@
+{
+  "name": "edison",
+  "version": "0.1.0",
+  "description": "Data visualization of australian electricity demands and dispatch",
+  "repository": "https://github.com/tonysickpony/edison.git",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint . && echo 'OK'"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "csv": "^1.1.0",
+    "influx": "^4.2.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.13.0",
+    "moment-timezone": "^0.5.4",
+    "node-fetch": "^1.5.3",
+    "node-schedule": "^1.1.1",
+    "promisify-node": "^0.4.0",
+    "unzip": "^0.1.11",
+    "walk": "^2.3.9"
+  },
+  "devDependencies": {}
+}
